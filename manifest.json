@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "Popup Currency Converter",
+	"version": "0.9.1",
+	"description": "Convert currency very quickly and easily. No external site, you can stay on whatever site you need! Runs completely inside a popup.",
+	"action": {
+	  "default_icon": {
+		"100": "img/monies.png"
+	  },
+	  "default_popup": "popup.html"
+	},
+	"icons": {
+	  "100": "img/monies.png"
+	},
+	"permissions": ["storage"],
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"content_security_policy": {
+	  "extension_pages": "script-src 'self'; object-src 'self';"
+	}
+  }
+  

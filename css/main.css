@@ -1,0 +1,53 @@
+body {
+	min-width: 250px;
+	margin: 5px 20px;
+	background-color: #2f2f2f;
+	height: auto; /* Ensure the body height adjusts automatically */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+/* Currency converter Title */
+h1 {
+	margin-top: 15px;
+	color: White;
+}
+
+/* Currencies lists */
+select {
+	margin-bottom: 0;
+	border-radius: 55px;
+	text-align: center;
+	width: 100%; /* Ensure the select fits the container */
+	box-sizing: border-box;
+}
+
+/* Conversion result */
+.input-group.result {
+  margin-bottom: 0 !important;
+  border-radius: 1000px;
+  background-color: Tomato;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Refresh button */
+.refresh-button {
+  background-color: #1779ba;
+  color: white;
+  border-radius: 1000px;
+  padding: 10px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+/* Ensure the popup content is responsive */
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
